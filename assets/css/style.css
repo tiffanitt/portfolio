@@ -49,7 +49,7 @@ h5 {
 }
 
 .main-low-margin {
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 a, a:hover {
@@ -71,6 +71,7 @@ p {
 
 .space-bottom {
     height: 120px;
+
 }
 
 .space-top {
@@ -84,7 +85,7 @@ p {
 
 .head-line {
     font-size: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 1px;
     line-height: 65px;
     font-weight: 900;
 }

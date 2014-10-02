@@ -1,17 +1,6 @@
 
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-
 jQuery(function($) {
+
 
     /*==========================================
     CUSTOM SCRIPTS
@@ -44,5 +33,21 @@ jQuery(function($) {
     /*==========================================
     WRITE  YOUR  SCRIPTS BELOW
     =====================================================*/
+
+    $(window).scroll(function() {
+
+  // get the variable of how far we've scrolled from the top
+  var offset = $(window).scrollTop();
+	offset     = offset * 20;
+
+  $('#sp-links a').css({
+    '-moz-transform': 'rotate(' + offset + 'deg)',
+    '-webkit-transform': 'rotate(' + offset + 'deg)',
+    '-o-transform': 'rotate(' + offset + 'deg)',
+    '-ms-transform': 'rotate(' + offset + 'deg)',
+    'transform': 'rotate(' + offset + 'deg)',
+  });
+
+});
 
 });

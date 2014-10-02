@@ -7062,3 +7062,24 @@ td.visible-print {
 
 /*PORTFOLIO PAGES */
 
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+body        { min-height:2000px; }
+
+#sp-links   { padding-top:50px; position:relative; text-align:center; width:100%; }
+
+#sp-links a { color:#FFF; display:inline-block; font-size:50px; height:80px; margin:0 30px; padding-top:20px; width:80px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+  #sp-linkedin { background:#43609C; }
+  #sp-twitter  { background:#1CC1F7; }
+  #sp-github  { background:#000000; }
+
+
