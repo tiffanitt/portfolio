@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
         $.ajax({
-            url: 'https://api.instagram.com/v1/users/'+ userID +'/media/recent/?client_id=' + clientID,
+            url: 'https://api.instagram.com/v1/users/'+ userID +'/media/recent/?client_id=' + clientID + "&callback=?&count=18",
             type: 'GET',
             dataType: 'jsonp',
             success: function (response) {
