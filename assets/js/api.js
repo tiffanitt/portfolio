@@ -6,7 +6,6 @@ $(document).ready(function() {
     var userID = '1237504007';
     var displayInfo = {};
 
-
         $.ajax({
             url: 'https://api.instagram.com/v1/users/'+ userID +'/media/recent/?client_id=' + clientID + "&callback=?&count=18",
             type: 'GET',

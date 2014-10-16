@@ -17,7 +17,7 @@ jQuery(function($) {
             if ($target.length) {
                 var targetOffset = $target.offset().top;
                 $('html,body')
-                .animate({ scrollTop: targetOffset }, 800); //set scroll speed here
+                .animate({ scrollTop: targetOffset }, 100); //set scroll speed here
                 return false;
             }
         }
@@ -45,7 +45,7 @@ jQuery(function($) {
         '-webkit-transform': 'rotate(' + offset + 'deg)',
         '-o-transform': 'rotate(' + offset + 'deg)',
         '-ms-transform': 'rotate(' + offset + 'deg)',
-        'transform': 'rotate(' + offset + 'deg)',
+        'transform': 'rotate(' + offset + 'deg)'
       });
 
 });
