@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+/*body { padding-top: 50px; }*/
+#myCarousel .nav a small {
+  display:block;
+}
+#myCarousel .nav {
+  background:#eee;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <a href="http://layover.herokuapp.com"><img src= assets/img/project1.jpg></a>
+           <div class="carousel-caption">
+            <h3>LAYOVER</h3>
+            <p>A Geolocation app that allows passengers at any airport to connect with one another when their flights are delayed based on the type of activities they're looking to do (e.g. grab coffee, business ideas, networking, etc...) </p>
+          </div>
+        </div><!-- End Item -->
+
+         <div class="item">
+           <a href="http://layover.herokuapp.com"><img src=assets/img/project2.jpg></a>
+           <div class="carousel-caption">
+            <h3>Portfolio Page</h3>
+            <p> An online portfolio that shows anyone on the web who I really am as a person but also my goals and endeavors to becoming a successful Software Engineer! "Can't stop, won't stop" is my motto!</p>
+          </div>
+        </div><!-- End Item -->
+
+        <!--<div class="item">-->
+          <!--<img src="http://placehold.it/1200x440/dddddd/333333">-->
+           <!--<div class="carousel-caption">-->
+            <!--<h3>Headline</h3>-->
+            <!--<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+          <!--</div>-->
+        <!--</div>&lt;!&ndash; End Item &ndash;&gt;-->
+
+        <!--<div class="item">-->
+          <!--<img src="http://placehold.it/1200x440/999999/cccccc">-->
+           <!--<div class="carousel-caption">-->
+            <!--<h3>Headline</h3>-->
+            <!--<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+          <!--</div>-->
+        <!--</div>&lt;!&ndash; End Item &ndash;&gt;-->
+
+      </div><!-- End Carousel Inner -->
+
+
+    <ul class="nav nav-pills nav-justified">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="http://layover.herokuapp.com">Project 1</a></li>
+          <li data-target="#myCarousel" data-slide-to="1"><a href="http://layover.herokuapp.com">Project 2</a></li>
+          <!--<li data-target="#myCarousel" data-slide-to="2"><a href="#">Portfolio<small>Lorem ipsum dolor sit</small></a></li>-->
+          <!--<li data-target="#myCarousel" data-slide-to="3"><a href="#">Services<small>Lorem ipsum dolor sit</small></a></li>-->
+        </ul>
+
+
+    </div><!-- End Carousel -->
+</div>
+
+
+
+<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script>
+    </script>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+//  $('#myCarousel').carousel({
+//    interval:   4000
+//  });
+//
+//  var clickEvent = false;
+//  $('#myCarousel').on('click', '.nav a', function() {
+//      clickEvent = true;
+//      $('.nav li').removeClass('active');
+//      $(this).parent().addClass('active');
+//  }).on('slid.bs.carousel', function(e) {
+//    if(!clickEvent) {
+//      var count = $('.nav').children().length -1;
+//      var current = $('.nav li.active');
+//      current.removeClass('active').next().addClass('active');
+//      var id = parseInt(current.data('slide-to'));
+//      if(count == id) {
+//        $('.nav li').first().addClass('active');
+//      }
+//    }
+//    clickEvent = false;
+//  });
+

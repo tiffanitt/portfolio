@@ -70,7 +70,8 @@ p {
 }
 
 .space-bottom {
-    height: 120px;
+    height: auto;
+    position: absolute;
 
 }
 
@@ -292,8 +293,10 @@ section article {
    ========================================================================== */
 
 
-#footer {
-    background-color: #000;
-    color: #fff;
-    padding: 30px;
+/*body { padding-top: 50px; }*/
+#myCarousel .nav a small {
+  display:block;
+}
+#myCarousel .nav {
+  background:#eee;
 }

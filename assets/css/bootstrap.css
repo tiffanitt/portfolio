@@ -345,7 +345,8 @@ img {
 .img-responsive {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 60%;
+
 }
 
 .img-rounded {
@@ -781,16 +782,16 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .container:before,
 .container:after {
   display: table;
   content: " ";
+
 }
 
 .container:after {
@@ -807,9 +808,10 @@ pre code {
   clear: both;
 }
 
-.row {
+table {
   margin-right: -15px;
   margin-left: -15px;
+  padding-bottom: 20px;
 }
 
 .row:before,
@@ -1293,6 +1295,7 @@ pre code {
   .col-md-6 {
     width: 50%;
   }
+
   .col-md-5 {
     width: 41.66666666666667%;
   }
@@ -1420,7 +1423,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1279px;
   }
   .col-lg-1,
   .col-lg-2,
