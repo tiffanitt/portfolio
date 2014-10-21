@@ -6367,6 +6367,7 @@ button.close {
 
 .carousel-inner > .active {
   left: 0;
+  max-height: 400px;
 }
 
 .carousel-inner > .next,

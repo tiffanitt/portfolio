@@ -58,7 +58,7 @@ a, a:hover {
 
 p {
     line-height: 30px;
-    margin-bottom: 23px;
+    margin-bottom: 3px;
 }
 
 .img-margin-product {
@@ -128,7 +128,7 @@ p {
    ========================================================================== */
 
 .active {
-    background: #EB8F2D!important;
+    background: white !important;
 }
 
 #pricing-section .plan-main {
@@ -281,7 +281,7 @@ section article {
     z-index: 4;
     color: #fff;
     font-size: 20px!important;
-    padding: 20px;
+    padding: 10px;
 }
 
     section article span {
@@ -299,4 +299,9 @@ section article {
 }
 #myCarousel .nav {
   background:#eee;
+}
+
+#items {
+    margin-bottom: auto;
+    margin-top: auto;
 }
