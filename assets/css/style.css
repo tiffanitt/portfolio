@@ -21,14 +21,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #000;
-    line-height: 16px;
+    line-height: 40px;
     font-weight: 400;
+    word-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     line-height: 40px;
 }
+
 
 h1 {
     padding-top: 30px;
@@ -272,6 +274,7 @@ section {
     height: 300px;
     position: absolute;
     width: 100%;
+
 }
 
 section article {
@@ -282,12 +285,15 @@ section article {
     color: #fff;
     font-size: 20px!important;
     padding: 10px;
+
 }
 
     section article span {
         line-height: 40px!important;
         font-weight: 600!important;
     }
+
+
 /* ==========================================================================
    FOOTER SECTION
    ========================================================================== */
@@ -304,4 +310,11 @@ section article {
 #items {
     margin-bottom: auto;
     margin-top: auto;
+}
+
+.fa-spin-hover:hover {
+   -webkit-animation: spin 2s infinite linear;
+   -moz-animation: spin 2s infinite linear;
+   -o-animation: spin 2s infinite linear;
+   animation: spin 2s infinite linear;
 }

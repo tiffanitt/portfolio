@@ -33,22 +33,22 @@ jQuery(function($) {
     /*==========================================
     WRITE  YOUR  SCRIPTS BELOW
     =====================================================*/
-
-     $(window).scroll(function() {
-
-      // get the variable of how far we've scrolled from the top
-      var offset = $(window).scrollTop();
-        offset     = offset * 20;
-
-      $('#sp-links a').css({
-        '-moz-transform': 'rotate(' + offset + 'deg)',
-        '-webkit-transform': 'rotate(' + offset + 'deg)',
-        '-o-transform': 'rotate(' + offset + 'deg)',
-        '-ms-transform': 'rotate(' + offset + 'deg)',
-        'transform': 'rotate(' + offset + 'deg)'
-      });
-
-});
+//
+//     $(window).scroll(function() {
+//
+//      // get the variable of how far we've scrolled from the top
+//      var offset = $(window).scrollTop();
+//        offset     = offset * 20;
+//
+//      $('#sp-links a').css({
+//        '-moz-transform': 'rotate(' + offset + 'deg)',
+//        '-webkit-transform': 'rotate(' + offset + 'deg)',
+//        '-o-transform': 'rotate(' + offset + 'deg)',
+//        '-ms-transform': 'rotate(' + offset + 'deg)',
+//        'transform': 'rotate(' + offset + 'deg)'
+//      });
+//
+//});
 
 
 

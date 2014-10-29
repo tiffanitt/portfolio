@@ -1259,7 +1259,8 @@ table {
 
 @media (min-width: 992px) {
   .container {
-    width: 1261px;
+    width: auto;
+      max-width: 5000px;
   }
   .col-md-1,
   .col-md-2,
@@ -1423,7 +1424,8 @@ table {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1279px;
+    width: auto;
+    /*max-width: 5000px;*/
   }
   .col-lg-1,
   .col-lg-2,

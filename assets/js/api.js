@@ -7,7 +7,7 @@ $(document).ready(function() {
     var displayInfo = {};
 
         $.ajax({
-            url: 'https://api.instagram.com/v1/users/'+ userID +'/media/recent/?client_id=' + clientID + "&callback=?&count=18",
+            url: 'https://api.instagram.com/v1/users/'+ userID +'/media/recent/?client_id=' + clientID + "&callback=?&count=20",
             type: 'GET',
             dataType: 'jsonp',
             success: function (response) {
@@ -46,5 +46,5 @@ $(document).ready(function() {
     clickEvent = false;
   });
 
-    });
+   });
 
