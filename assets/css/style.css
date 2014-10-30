@@ -15,7 +15,11 @@
 /* ===========================================================
    GENERAL STYLESHEET BY BYINARY THEME    
    ============================================================*/
-
+.stories{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    word-wrap: break-word;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -23,7 +27,7 @@ body {
     color: #000;
     line-height: 40px;
     font-weight: 400;
-    word-wrap: break-word;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -279,18 +283,22 @@ section {
 
 section article {
     position: absolute;
-    left: 80px;
-    width: 100%;
+    left: 70px;
+    max-width: 5000px;
     z-index: 4;
     color: #fff;
     font-size: 20px!important;
     padding: 10px;
+
+
 
 }
 
     section article span {
         line-height: 40px!important;
         font-weight: 600!important;
+        display: inline-block;
+        overflow: auto;
     }
 
 
@@ -299,7 +307,6 @@ section article {
    ========================================================================== */
 
 
-/*body { padding-top: 50px; }*/
 #myCarousel .nav a small {
   display:block;
 }
