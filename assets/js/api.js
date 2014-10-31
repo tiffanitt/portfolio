@@ -24,9 +24,7 @@ $(document).ready(function() {
             }
         });
 
-  $('#myCarousel').carousel({
-    interval:   6000
-  });
+
 
   var clickEvent = false;
   $('#myCarousel').on('click', '.nav a', function() {
@@ -45,6 +43,9 @@ $(document).ready(function() {
     }
     clickEvent = false;
   });
+//      $('#myCarousel').carousel({
+//    interval:   6000
+//  });
 
    });
 

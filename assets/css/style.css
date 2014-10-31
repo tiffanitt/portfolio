@@ -33,6 +33,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     line-height: 40px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 
@@ -125,7 +130,8 @@ p {
 }
 
 .section {
-    background-color: rgba(102, 110, 197, 1);
+    /*background-color: rgba(102, 110, 197, 1);*/
+    background-color: #428bca;
     color: #fff;
 }
 
@@ -254,6 +260,7 @@ section {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
     section:nth-of-type(1) {
@@ -267,14 +274,16 @@ section {
     }
 
 #story-freext > div:nth-of-type(1) {
-    background: url(../img/nature-rain.jpg) 50% 0 no-repeat fixed;
-    height: 300px;
-    position: absolute;
+    background: url(../img/raindrops.jpg) 50% 0 no-repeat fixed;
+    height: 900px;
+    position: relative;
     width: 100%;
+
+
 }
 
 #story-two > div:nth-of-type(2) {
-    background: url(../img/sprout1.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/sprout.jpg) 50% 0 no-repeat fixed;
     height: 300px;
     position: absolute;
     width: 100%;
@@ -289,7 +298,13 @@ section article {
     color: #fff;
     font-size: 20px!important;
     padding: 10px;
-
+    padding-bottom: 1000px;
+    width: auto;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 
 
 }
@@ -299,6 +314,7 @@ section article {
         font-weight: 600!important;
         display: inline-block;
         overflow: auto;
+
     }
 
 
