@@ -16,7 +16,7 @@ $(document).ready(function() {
                     displayInfo = {};
                     displayInfo.img = response.data[i].images.thumbnail.url;
                     var gallery = $('#photos');
-                    gallery.append("<a href='http://instagram.com/perchancenopants'>"+"<img src='" + displayInfo.img + "'/></a>");
+                    gallery.append("<a href='http://instagram.com/perchancenopants/'>"+"<img src='" + displayInfo.img + "'/></a>");
                 }
             },
             error: function (error_message) {

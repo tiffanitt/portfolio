@@ -19,6 +19,16 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 40px;
     word-wrap: break-word;
+    font-size: medium;
+    width: auto;
+}
+
+#story{
+    width: auto;
+    font-size: medium;
+    word-wrap: break-word;
+    line-height: 40px;
+
 }
 
 body {
@@ -265,7 +275,7 @@ section {
 
     section:nth-of-type(1) {
         background: #FAFAFA;
-        height: 300px;
+        height: 500px;
     }
 
     section:nth-of-type(2) {
@@ -275,7 +285,7 @@ section {
 
 #story-freext > div:nth-of-type(1) {
     background: url(../img/raindrops.jpg) 50% 0 no-repeat fixed;
-    height: 900px;
+    height: 1000px;
     position: relative;
     width: 100%;
 
@@ -284,7 +294,7 @@ section {
 
 #story-two > div:nth-of-type(2) {
     background: url(../img/sprout.jpg) 50% 0 no-repeat fixed;
-    height: 300px;
+    height: 1000px;
     position: absolute;
     width: 100%;
 
@@ -292,13 +302,12 @@ section {
 
 section article {
     position: absolute;
-    left: 70px;
+    left: 50px;
     max-width: 5000px;
     z-index: 4;
     color: #fff;
     font-size: 20px!important;
-    padding: 10px;
-    padding-bottom: 1000px;
+    padding: 17px;
     width: auto;
     text-shadow:
     -1px -1px 0 #000,
@@ -314,6 +323,7 @@ section article {
         font-weight: 600!important;
         display: inline-block;
         overflow: auto;
+        font-size: medium;
 
     }
 
