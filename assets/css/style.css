@@ -25,9 +25,11 @@
 
 #story{
     width: auto;
+    height: auto;
     font-size: medium;
     word-wrap: break-word;
     line-height: 40px;
+
 
 }
 
@@ -295,7 +297,7 @@ section {
 #story-two > div:nth-of-type(2) {
     background: url(../img/sprout.jpg) 50% 0 no-repeat fixed;
     height: 1000px;
-    position: absolute;
+    position: relative;
     width: 100%;
 
 }
